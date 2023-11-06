@@ -1,4 +1,4 @@
-const mergeAlternately = (word1, word2) => {
+const mergeAlternately = (word1: string, word2: string): string => {
   const maxLength = Math.max(word1.length, word2.length)
   let result = ''
 
